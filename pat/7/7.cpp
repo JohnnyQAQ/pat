@@ -12,7 +12,7 @@ int main(){
         if(j % i == 0) break;
       }
       if(i > m){
-        cout<<j<<' ';
+        // cout<<j<<' ';
         a[k++] = j;
       }
   }
