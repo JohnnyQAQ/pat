@@ -24,7 +24,7 @@ int main(){
       sushu_cnt++;//当前素数的个数
       if(sushu_cnt>=n&&sushu_cnt<=m){
         cnt++;//符合条件的素数的个数，方便进行换行操作
-        if(cnt%10==0) cout<<i<<endl;//换行
+        if(cnt%10==0) cout<<i<<endl;//每十个数换行
         else if(sushu_cnt==m) cout<<i;//当素数个数达到最大要求的时候，不用输出空格
         else cout<<i<<" ";//常规输出：数字+空格
       }
