@@ -16,8 +16,6 @@ int main(){
   int right_num = 0;
   for(; k < input_str.size();k++){
     right_num = (right_num*10 + (input_str[k]-'0'));
-    // cout<<(input_str[k]-'0')<<' '<<right_num<<' ';
-
   }
   // cout<<right_num<<endl;
 
