@@ -13,7 +13,7 @@ int main(){
     cot++;
   }
   m = m+k-4-1;
-  cout<< m<<endl;
+
   cot--;
   int h = (k - 8)/2;
   int f=h;
@@ -32,4 +32,6 @@ int main(){
     for(int j = 0; j < h; j++)  cout<<a;
     cout<<endl;
   }
+
+  cout<< m<<endl;
 }
